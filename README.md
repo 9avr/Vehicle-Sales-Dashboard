@@ -10,7 +10,7 @@ The dashboard was built using the following tools and technologies:<br>
 •	📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
 •	📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.<br>
 •	🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.<br>
-•	📝 Data Modeling – Relationships established among tables (Transactions, User details, Date) to enable cross-filtering and aggregation.<br>
+•	📝 Data Modeling – Relationships established among tables  to enable cross-filtering and aggregation.<br>
 •	📁 File Format – .pbix for development and .png for dashboard previews.
 
 ### 4.	Data Source
@@ -44,34 +44,34 @@ date
 ### 5.	Features / Highlights
 Key KPIs 
 
-Total Sales: 249531
+          Total Sales: 249531
 
-Total value:218075 Bn
+          First time buyers:218075 
 
 
 'Vehicle type' and 'month' Filter Panel
 
-An interactive slicer lets users filter all visuals by different Vehicle type and month.
+        An interactive slicer lets users filter all visuals by different Vehicle type and month.
 
 Vehicle sold by cities (Donut chart)
 
-Displays how many vehicles sold in different cities in Telangana state and its share in total sales.
+        Displays how many vehicles sold in different cities in Telangana state and its share in total sales.
 
 Fuel type (Bar chart)
 
-Displays how many vehicles sold for different fuel type.
+        Displays how many vehicles sold for different fuel type.
 
 Top 10 models sold (Bar Chart)
 
-Gives information about top 10 best selling models in each category 
+        Gives information about top 10 best selling models in each category 
 
 Market share (pie  Chart)
 
-Shows iwhats is the market share of different companies
+        Shows iwhats is the market share of different companies
 
 Seating capacity(Funnel chart)
 
-Shows seating capacity of vehicles and how many vehicles are sold for the same.
+        Shows seating capacity of vehicles and how many vehicles are sold for the same.
 
 
 
