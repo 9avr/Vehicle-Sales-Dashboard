@@ -14,32 +14,32 @@ The dashboard was built using the following tools and technologies:<br>
 •	📁 File Format – .pbix for development and .png for dashboard previews.
 
 ### 4.	Data Source
-Source: [https://www.kaggle.com ](https://data.telangana.gov.in/search)
+Source: (https://data.telangana.gov.in/search)
 The dataset containsVehicle sale record records of October, November December of 2025 and includes:
 
-Transaction_ID
+modeldesc	
 
-Amount
+fuel	
 
-ser_ID 
+colour	
 
-Service 
+vehicleclass	
 
-Service Type 
+makeyear	
 
-Payment_Status 
+seatcapacity	
 
-Reason 
+secondvehicle	
 
-Date
+tempregistrationnumber	
 
-Name 
+category	
 
-Age
+makername	
 
-Join_Date
+officecd	
 
-
+date
 
 ### 5.	Features / Highlights
 Key KPIs 
