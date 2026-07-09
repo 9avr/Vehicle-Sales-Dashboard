@@ -15,7 +15,7 @@ The dashboard was built using the following tools and technologies:<br>
 
 ### 4.	Data Source
 Source: (https://data.telangana.gov.in/search)
-The dataset containsVehicle sale record records of October, November December of 2025 and includes:
+The dataset contains Vehicle sale records of October, November December of 2025 and includes:
 
 modeldesc	
 
@@ -44,41 +44,38 @@ date
 ### 5.	Features / Highlights
 Key KPIs 
 
-Total Transactions: 300000	
+Total Sales: 249531
 
-Total value:3.47 Bn
-
-Unique Users: 101K
-
-Success Rate: 96%
+Total value:218075 Bn
 
 
-Month and Status Filter Panel
+'Vehicle type' and 'month' Filter Panel
 
-An interactive slicer lets users filter all visuals by selected month and status of transaction.
+An interactive slicer lets users filter all visuals by different Vehicle type and month.
 
-Transactions over time (Dual Line Chart)
+Vehicle sold by cities (Donut chart)
 
-Two line visuals side by side: one for total transactions, another for transaction value.
+Displays how many vehicles sold in different cities in Telangana state and its share in total sales.
 
-Age segment contributuion (Donut chart)
+Fuel type (Bar chart)
 
-Displays the contributuion of different age groups in total transaction
-Service type bar chart 
+Displays how many vehicles sold for different fuel type.
 
-Displays which services contributed to maximum transaction value
+Top 10 models sold (Bar Chart)
 
-Top 5 Users (Bar Chart)
+Gives information about top 10 best selling models in each category 
 
-Gives information about top 5 most contributing users
+Market share (pie  Chart)
 
-Transaction by weekdays (Line  Chart)
+Shows iwhats is the market share of different companies
 
-Shows intensity of transactions distributed over weekdays.
+Seating capacity(Funnel chart)
+
+Shows seating capacity of vehicles and how many vehicles are sold for the same.
 
 
 
 
 ### 6.	Screenshots / Demos
 
- ![Dashboard Preview](https://github.com/9avr/PhonePe-Dashboard/blob/main/PhonePe%20dashboard%20screenshot.PNG)
+ ![Dashboard Preview](https://github.com/9avr/Vehicle-Sales-Dashboard/blob/main/snapshot%20dashboard.PNG)
