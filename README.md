@@ -17,31 +17,51 @@ The dashboard was built using the following tools and technologies:<br>
 Source: (https://data.telangana.gov.in/search)
 The dataset contains Vehicle sale records of October, November December of 2025 and includes:
 
-modeldesc	
+             modeldesc	
 
-fuel	
+             fuel	
 
-colour	
+             colour	
 
-vehicleclass	
+             vehicleclass	
 
-makeyear	
+             makeyear	
 
-seatcapacity	
+             seatcapacity	
 
-secondvehicle	
+             secondvehicle	
 
-tempregistrationnumber	
+             tempregistrationnumber	
 
-category	
+             category	
 
-makername	
+             makername	
 
-officecd	
+             officecd	
 
-date
+             date
 
-### 5.	Features / Highlights
+### 5.	Business questions answered
+          1.How many vehicles were sold per month?
+          
+          2.Category wise distributions of sold vehicles?
+          
+          3.Top 5 cities accounting for maximum sales?
+          
+          4.Top 10 models sold for each city, category, vehicle maker, fuel type and seating capacity?
+          
+          5.Color preference of customers in each city, category, vehicle maker, model and seating capacity?
+          
+          6. Market share of each vehicle maker?
+          
+          7.Which fuel type accounted for how much sales?
+          
+          8.First time buyers?
+          
+          9.Seating capacity of vehicles sold?
+
+
+### 6.	Features / Highlights
 Key KPIs 
 
           Total Sales: 249531
