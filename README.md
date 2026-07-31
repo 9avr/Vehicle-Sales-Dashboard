@@ -8,11 +8,17 @@ The Vehicle Sales Dashboard is a visually engaging and analytical Power BI repor
 
 ### 3.Tech Stack
 The dashboard was built using the following tools and technologies:
+
 • 📊 Power BI Desktop – Main data visualization platform used for report creation.
+
 • 📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.
+
 • 🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.
+
 • 🗄️ SQL (MySQL) – Used to independently validate dashboard KPIs and perform data quality checks via query.
+
 • 📝 Data Modeling – Relationships established among tables to enable cross-filtering and aggregation.
+
 • 📁 File Format – .pbix for development and .png for dashboard previews.
 
 ### 4. Data Source
@@ -106,16 +112,14 @@ Seating capacity(Funnel chart)
 Shows seating capacity of vehicles and how many vehicles are sold for the same.
 ```
 
-### 7. SQL Validation Layer
+### 7. SQL Validation 
 
 To validate the dashboard's KPIs independently of Power BI/DAX, I also wrote a set of SQL queries (`sql_queries.sql`) that answer the same business questions directly against the raw data loaded into MySQL. This includes:
 
-- Aggregate queries confirming Total Sales and First-Time Buyer counts match the dashboard
+- Queries confirming Total Sales and First-Time Buyer counts match the dashboard
 - Window functions (`ROW_NUMBER()`, `PARTITION BY`) to compute top-selling models per category, city, maker, fuel type, and seating capacity
 - Market share and fuel-type breakdown queries mirroring the pie/bar chart visuals
 - Data quality checks for duplicate registration numbers and null values in critical fields
-
-See [`sql_queries.sql`](./sql_queries.sql) for the full query set.
 
 ### 8. Screenshots / Demos
 
